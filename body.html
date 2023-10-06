@@ -39,7 +39,7 @@
                                 <h2>Git <span class="text-danger">--fast-version-control</span></h2>
                                 <P> Git es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia, la confiabilidad y compatibilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente. Su propósito es llevar registro de los cambios en archivos de computadora incluyendo coordinar el trabajo que varias personas realizan sobre archivos compartidos en un repositorio de código.</P>
                                     <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                        Mas Info
+                                        Guia Uso
                                       </button>
 
                                       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -50,9 +50,15 @@
                                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
-                                              <p class="text-dark">Al principio, Git se pensó como un motor de bajo nivel sobre el cual otros pudieran escribir la interfaz de usuario o front end como Cogito o StGIT. 2​Sin embargo, Git se ha convertido desde entonces en un sistema de control de versiones con funcionalidad plena. 3​Hay algunos proyectos de mucha relevancia que ya usan Git, en particular, el grupo de programación del núcleo Linux.
-
-                                                El mantenimiento del software Git está actualmente (2009) supervisado por Junio Hamano, quien recibe contribuciones al código de alrededor de 280 programadores. En cuanto a derechos de autor Git es un software libre distribuible bajo los términos de la versión 2 de la Licencia Pública General de GNU.</p>
+                                              <p class="text-dark">Instalación: Primero, instala Git en tu computadora si aún no lo tienes. Puedes descargarlo desde el sitio web oficial de Git.</p>
+                                              <p class="text-dark">Creación de un repositorio: En la carpeta de tu proyecto, ejecuta el comando git init para inicializar un repositorio Git.</p>
+                                              <p class="text-dark">Agrega archivos: Utiliza git add para agregar archivos al área de preparación (staging) antes de hacer un commit. Por ejemplo, git add archivo.txt.</p>
+                                              <p class="text-dark">Realiza un commit: Usa git commit para guardar los cambios en el repositorio. Incluye un mensaje descriptivo para el commit, por ejemplo, git commit -m "Agrega nuevas características".</p>
+                                              <p class="text-dark">Crea ramas: Para trabajar en nuevas características o correcciones, crea ramas con git branch nombre-rama y cámbiate a ellas con git checkout nombre-rama.</p>
+                                              <p class="text-dark">Fusiona cambios: Cuando hayas completado tu trabajo en una rama, puedes fusionarla en la rama principal con git merge. Por ejemplo, git merge nombre-rama.</p>
+                                              <p class="text-dark">Repositorios remotos: Si trabajas en equipo, clona un repositorio remoto con git clone o agrega un repositorio remoto con git remote add. Luego, usa git push para enviar tus cambios al repositorio remoto y git pull para obtener cambios de otros.</p>
+                                              <p class="text-dark">Gestión de conflictos: Si hay conflictos durante una fusión, Git te guiará para resolverlos.</p>
+                                              <p class="text-dark">Historial y registro de cambios: Utiliza comandos como git log para ver el historial de commits y git diff para ver las diferencias entre versiones.</p>
                                             </div>
                                             <div class="modal-footer">
                                               <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Entendido</button>
@@ -67,6 +73,24 @@
         </section>
 
 
+        <section class="section-padding">
+            <div class="container w-75 text-white mt-5">
+              <h1 class="text-center text-danger">Información</h1>
+              <p class="mt-5 lead">Git es un sistema de control de versiones de código abierto ampliamente utilizado en el desarrollo de software. Su función principal es rastrear y gestionar los cambios realizados en archivos y directorios a lo largo del tiempo, lo que facilita la colaboración y el seguimiento de proyectos de software.
+
+                En el corazón de Git se encuentra el concepto de un repositorio, que es un almacén que contiene todos los archivos y registros de cambios de un proyecto específico. Los repositorios pueden existir localmente en tu propia computadora o de forma remota en servidores en línea, como GitHub o GitLab.
+                
+                Uno de los elementos fundamentales de Git es el commit, que representa un registro de cambios en el repositorio. Cada commit incluye información detallada, como una descripción de los cambios realizados, el autor de los cambios y la fecha en que se realizaron. En conjunto, los commits forman una línea de tiempo que muestra la evolución del proyecto.
+                
+                Git también permite la creación de ramas, que son líneas independientes de desarrollo que se bifurcan del repositorio principal. Las ramas son útiles para trabajar en nuevas características o correcciones sin afectar directamente la rama principal del proyecto. Una vez que se completa una tarea en una rama, es posible fusionar esos cambios de nuevo en la rama principal o en otra rama relevante.
+                
+                La colaboración en equipo es esencial en el desarrollo de software, y Git facilita esto a través de repositorios remotos. Los repositorios remotos son copias de tu repositorio local alojadas en servidores en línea, lo que permite a múltiples personas trabajar en el mismo proyecto de forma simultánea y coordinada.
+                
+                Plataformas como GitHub y GitLab han llevado la colaboración en el desarrollo de software a un nuevo nivel. Estos servicios en línea permiten alojar repositorios remotos, brindan herramientas adicionales para la colaboración, como seguimiento de problemas y solicitudes de extracción, y fomentan la contribución a proyectos de código abierto a nivel global.
+                
+                En resumen, Git es una herramienta esencial para el control de versiones en el desarrollo de software, que proporciona un registro completo de cambios, facilita la colaboración en equipo y permite mantener un historial detallado de proyectos. Su integración con servicios en línea como GitHub y GitLab ha revolucionado la forma en que se desarrolla y colabora en el software en todo el mundo.</p>
+            </div>
+          </section>
             
 
         <section class="services section-padding">
@@ -76,7 +100,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="section-header text-center text-danger pb-5">
-                                <h2>Mas Información</h2>
+                                <h2>Enlaces</h2>
                                 
                             </div>
                         </div>
@@ -103,7 +127,7 @@
                             <div class="card text-white text-center bg-dark pb-2">
                                 <div class="card-body">
                                     <i class="bi bi-wifi"></i>
-                                    <h3 class="card-title">Mas Información</h3>
+                                    <h3 class="card-title">Historia</h3>
                                     <p class="lead">Si queremos aprender mas sobre la historia de git podremos investigar mas en este enlaze</p>
                                     <a href="https://es.wikipedia.org/wiki/Git"><button class="btn bg-danger text-white">Enlace</button></a>
                                     
@@ -129,111 +153,61 @@
                 </div>
         </section>
 
-            
+
         
+            
+        <section class="section-padding mt-5">
+            <div class="container w-50 text-white">
+                <h1 class="text-center text-danger">Formulario</h1>
+                <form id="myForm">
+                  
+                  <div class="form-group mt-4">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" required>
+                  </div>
+                  <div class="form-group mt-4">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                  </div>
+                  <button type="submit" class="btn btn-danger mt-5">Enviar</button>
+        
+                </form>
+              </div>
+            </section>
 
 
-        <section class="team section-padding">
-
-                <div class="container">
-
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="section-header text-center text-danger pb-5">
-                                <h2>Curiosidades</h2>
-                                
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-
-                        <div class="col-12 col-md-6 col-lg-3">
-                            <div class="card text-center bg-dark">
-                                <div class="card-body text-white">
-                                    <img src="img/pipa.png" class="img-fluid rounded-circle w-75" alt="">
-
-                                    <h3 class="card-title py-2">Humo</h3>
-                                    <p class="card-text"> Los Peaky Blinders también están involucrados en el contrabando y venta ilegal de tabaco, aprovechando la alta demanda y los altos beneficios económicos de esta actividad ilícita.</p>
-                                    
-
-                                
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-12 col-md-6 col-lg-3">
-                            <div class="card text-center bg-dark">
-                                <div class="card-body text-white">
-                                    <img src="img/botella.png" class="img-fluid rounded-circle w-75" alt="">
-
-                                    <h3 class="card-title py-2">Whiskey</h3>
-                                    <p class="card-text">
-                                        Los Peaky Blinders tienen una estrecha relación con el whisky, aprovechando la prohibición y el contrabando durante la Ley Seca para expandir su imperio criminal y obtener grandes ganancias a través de su distribución clandestina.</p>
-                                    
-                                    
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-12 col-md-6 col-lg-3">
-                            <div class="card text-center bg-dark">
-                                <div class="card-body text-white">
-                                    <img src="img/cuchillas.png" class="img-fluid rounded-circle w-75" alt="">
-
-                                    <h3 class="card-title py-2">Poder</h3>
-                                    <p class="card-text"> Los Peaky Blinders utilizan navajas de corta distancia, ocultas en las solapas de sus gorras, como su arma característica y letal, por la que podemos identificar a mienbros de la propia banda.</p>
-                                    
-                                    
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-12 col-md-6 col-lg-3">
-                            <div class="card text-center bg-dark">
-                                <div class="card-body text-white">
-                                    <img src="img/dinero.png" class="img-fluid rounded-circle w-75" alt="">
-                                    <h3 class="card-title py-2">Dinero</h3>
-                                    <p class="card-text"> Los Peaky Blinders obtienen dinero principalmente a través de actividades ilegales como el juego, el contrabando de alcohol y la extorsión. También se involucran en apuestas clandestinas y protección de negocios locales.</p>
-                                    
-                                    
-                                    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <section class="section-padding">
+                <div class="container text-white w-75">
+                    <h1 class="text-center text-danger">Trabajadores</h1>
+        
+                    <ol class="list-group list-group-numbered mt-5">
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                          <div class="ms-2 me-auto">
+                            <div class="fw-bold">Marta Borreguero Soria</div>
+                            
+                          </div>
+                          <a href="https://github.com/martaboso98"><span class="badge bg-info rounded-pill">Enlace</span></a>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                          <div class="ms-2 me-auto">
+                            <div class="fw-bold">David González Sáez</div>
+                            
+                          </div>
+                          <a href="https://github.com/dgs02"><span class="badge bg-info rounded-pill">Enlace</span></a>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                          <div class="ms-2 me-auto">
+                            <div class="fw-bold">Jose Carlos Martín Tejada</div>
+                            
+                          </div>
+                          <a href="https://github.com/josekaMT"><span class="badge bg-info rounded-pill">Enlace</span></a>
+                        </li>
+                      </ol>
                 </div>
+            </section>
 
 
-                
-
-                
-                
-
-                
-
-                <div class="modal fade" id="Pipa" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalLabel">Pipa</h5>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            Los Peaky Blinders, conocidos por su estilo distintivo y audaz, llevaban una arma peculiar oculta en sus gorras. Dentro de las costuras de sus sombreros, hábilmente cosían pequeñas navajas o cuchillas afiladas, que les otorgaban una ventaja letal en situaciones de combate cuerpo a cuerpo.
-
-                            Estas cuchillas ocultas les permitían atacar de forma rápida y sorpresiva, aprovechando la cercanía con sus oponentes. Con un simple movimiento de cabeza, podían desplegar rápidamente la hoja y cortar o apuñalar a sus enemigos con precisión letal. Esta táctica era especialmente efectiva en peleas callejeras, donde el factor sorpresa y la velocidad eran cruciales.
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
-                        </div>
-                      </div>
-                    </div>
-                </div>
-                
-
-                 
-
-        </section>
+        
         
     </main>
     
