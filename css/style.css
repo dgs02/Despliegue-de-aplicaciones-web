@@ -74,3 +74,7 @@
   .bd-mode-toggle .dropdown-menu .active .bi {
     display: block !important;
   }
+
+  .footer-dark{
+    background-color: #e2e5ea;
+  }
