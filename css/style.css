@@ -2,8 +2,41 @@ body {
     background-color: #ffffff;
 }
 
-.navbar {
-    background-color: #333;
+.header-with-bg {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.image-container img {
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del ancho del encabezado */
+    max-height: 1180px; /* Establece una altura máxima para la imagen (ajusta este valor según tus necesidades) */
+    object-fit: cover; /* Asegura que la imagen cubra todo el espacio del encabezado */
+}
+
+.gris {
+    background-color: #e2e5ea !important;
+}
+
+.navbar-toggler .linea {
+    background-color: #161815;
+    !important;
+}
+
+.text-white-p {
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.text-white-h1 {
+    color: #ffffff;
+    font-size: 6px;
 }
 
 .navbar-brand {
@@ -41,20 +74,20 @@ body {
 
 h1,
 p {
-    color: #fff;
+    color: #000000;
 }
 
-.btn-pink {
+.btn-red {
     color: #fff;
     background-color: #f05133;
     border-color: #f05133;
 }
 
-.bg-pink {
+.bg-red {
     background-color: #f05133;
 }
 
-.text-pink {
+.text-red {
     color: #f05133;
 }
 
@@ -103,7 +136,7 @@ p {
     transform: scaleX(1);
 }
 
-.btn-pink {
+.btn-red {
     background-color: #f05133;
 }
 
@@ -120,7 +153,7 @@ p {
     display: block;
     width: 100%;
     height: 3px;
-    background-color: #fff;
+    background-color: #d91515;
     margin-bottom: 5px;
 }
 
@@ -144,13 +177,13 @@ p {
     }
 }
 
-.btn-pink {
+.btn-red {
     background-color: #f05133;
     transition: all 0.6s ease-in-out;
 }
 
-.btn-pink:hover {
-    background-color: #fff;
+.btn-red:hover {
+    background-color: #ffffff00;
     color: #f05133;
     border-color: #f05133;
 }
@@ -168,35 +201,4 @@ p {
 
 .form-label {
     color: white;
-}
-
-.gallery-item {
-    display: flex;
-    justify-content: center;
-}
-
-.gallery-item img {
-    max-width: 100%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 10px;
-    border: 2px solid #ffffff00;
-    transition: border-color 0.3s ease-in-out;
-}
-
-.foto {
-    max-width: 100%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 10px;
-    border: 2px solid #ffffff00;
-    transition: border-color 0.3s ease-in-out;
-}
-
-.foto:hover {
-    border-color: #f05133;
-}
-
-.text-lg {
-    font-size: 18px;
 }
