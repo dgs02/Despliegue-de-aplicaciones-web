@@ -1,55 +1,286 @@
-<!DOCTYPE html>
-<html lang="es">
+<!doctype html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio · GIT</title>
-    <link rel="icon" href="img/icon-git.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
+    <title>Peaky Blinders</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <script defer src="js/bootstrap.bundle.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!--<link rel="icon" href="img/fabi.png" type="image/x-icon"> -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+
 </head>
 
 <body>
-    <nav class="gris navbar navbar-expand-lg sticky-top">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="img/logo@2x.png" alt="Logo" width="140" height="60">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon">
-                    <span class="linea"></span>
-                    <span class="linea"></span>
-                    <span class="linea"></span>
-                </span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" href="index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" href="gallery.html">Galeria</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" href="us.html">Sobre Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" href="contact.html">Contacto</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" href="details.html">Detalles</a>
-                    </li>
-                </ul>
-            </div>
+  <nav class="gris navbar navbar-expand-lg sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/logo@2x.png" alt="Logo" width="140" height="60">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+                <span class="linea"></span>
+                <span class="linea"></span>
+                <span class="linea"></span>
+            </span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#guia">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#info">Información</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#enlaces">Enlaces</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#formulario">Formulario</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#creadores">Creadores</a>
+                </li>
+            </ul>
         </div>
-    </nav>
+    </div>
+</nav>
+    <main>
+
+        <section class="about section-padding" id="guia">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-12 col-12">
+                            <img src="img/logo2.png" class="img-fluid w-75" alt=""></img>
+                        </div>
+                        <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+                            <div class="about-text text-white">
+                                <h2>Git <span class="text-danger">--fast-version-control</span></h2>
+                                <P> Git es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia, la confiabilidad y compatibilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente. Su propósito es llevar registro de los cambios en archivos de computadora incluyendo coordinar el trabajo que varias personas realizan sobre archivos compartidos en un repositorio de código.</P>
+                                    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        Guia de Uso
+                                      </button>
+
+                                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                          <div class="modal-content">
+                                            <div class="modal-header">
+                                              <h5 class="modal-title text-dark" id="exampleModalLabel">G<span class="text-danger">it</span></h5>
+                                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                              <p class="text-dark">Instalación: Primero, instala Git en tu computadora si aún no lo tienes. Puedes descargarlo desde el sitio web oficial de Git.</p>
+                                              <p class="text-dark">Creación de un repositorio: En la carpeta de tu proyecto, ejecuta el comando git init para inicializar un repositorio Git.</p>
+                                              <p class="text-dark">Agrega archivos: Utiliza git add para agregar archivos al área de preparación (staging) antes de hacer un commit. Por ejemplo, git add archivo.txt.</p>
+                                              <p class="text-dark">Realiza un commit: Usa git commit para guardar los cambios en el repositorio. Incluye un mensaje descriptivo para el commit, por ejemplo, git commit -m "Agrega nuevas características".</p>
+                                              <p class="text-dark">Crea ramas: Para trabajar en nuevas características o correcciones, crea ramas con git branch nombre-rama y cámbiate a ellas con git checkout nombre-rama.</p>
+                                              <p class="text-dark">Fusiona cambios: Cuando hayas completado tu trabajo en una rama, puedes fusionarla en la rama principal con git merge. Por ejemplo, git merge nombre-rama.</p>
+                                              <p class="text-dark">Repositorios remotos: Si trabajas en equipo, clona un repositorio remoto con git clone o agrega un repositorio remoto con git remote add. Luego, usa git push para enviar tus cambios al repositorio remoto y git pull para obtener cambios de otros.</p>
+                                              <p class="text-dark">Gestión de conflictos: Si hay conflictos durante una fusión, Git te guiará para resolverlos.</p>
+                                              <p class="text-dark">Historial y registro de cambios: Utiliza comandos como git log para ver el historial de commits y git diff para ver las diferencias entre versiones.</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Entendido</button>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+
+        <section class="section-padding" id="info">
+            <div class="container w-75 text-white mt-5">
+              <h1 class="text-center text-danger">Información</h1>
+              <p class="mt-5 lead">Git es un sistema de control de versiones de código abierto ampliamente utilizado en el desarrollo de software. Su función principal es rastrear y gestionar los cambios realizados en archivos y directorios a lo largo del tiempo, lo que facilita la colaboración y el seguimiento de proyectos de software.
+
+                En el corazón de Git se encuentra el concepto de un repositorio, que es un almacén que contiene todos los archivos y registros de cambios de un proyecto específico. Los repositorios pueden existir localmente en tu propia computadora o de forma remota en servidores en línea, como GitHub o GitLab.
+                
+                Uno de los elementos fundamentales de Git es el commit, que representa un registro de cambios en el repositorio. Cada commit incluye información detallada, como una descripción de los cambios realizados, el autor de los cambios y la fecha en que se realizaron. En conjunto, los commits forman una línea de tiempo que muestra la evolución del proyecto.
+                
+                Git también permite la creación de ramas, que son líneas independientes de desarrollo que se bifurcan del repositorio principal. Las ramas son útiles para trabajar en nuevas características o correcciones sin afectar directamente la rama principal del proyecto. Una vez que se completa una tarea en una rama, es posible fusionar esos cambios de nuevo en la rama principal o en otra rama relevante.
+                
+                La colaboración en equipo es esencial en el desarrollo de software, y Git facilita esto a través de repositorios remotos. Los repositorios remotos son copias de tu repositorio local alojadas en servidores en línea, lo que permite a múltiples personas trabajar en el mismo proyecto de forma simultánea y coordinada.
+                
+                Plataformas como GitHub y GitLab han llevado la colaboración en el desarrollo de software a un nuevo nivel. Estos servicios en línea permiten alojar repositorios remotos, brindan herramientas adicionales para la colaboración, como seguimiento de problemas y solicitudes de extracción, y fomentan la contribución a proyectos de código abierto a nivel global.
+                
+                En resumen, Git es una herramienta esencial para el control de versiones en el desarrollo de software, que proporciona un registro completo de cambios, facilita la colaboración en equipo y permite mantener un historial detallado de proyectos. Su integración con servicios en línea como GitHub y GitLab ha revolucionado la forma en que se desarrolla y colabora en el software en todo el mundo.</p>
+            </div>
+          </section>
+            
+
+        <section class="services section-padding" id="enlaces">
+
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="section-header text-center text-danger pb-5">
+                                <h2>Enlaces</h2>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-12 col-md-12 col-lg-4">
+                            <div class="card text-white text-center bg-dark pb-2">
+                                <div class="card-body">
+                                    <i class="bi bi-laptop"></i>
+                                    <h3 class="card-title">Web Oficial</h3>
+                                    <p class="lead">En la web oficial de git tendremos la opción de descargar su ultima versión la 2.42.0</p>
+                                    <a href="https://git-scm.com/"><button class="btn bg-danger text-white">Enlace</button></a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    
+
+
+                    
+                        <div class="col-12 col-md-12 col-lg-4">
+                            <div class="card text-white text-center bg-dark pb-2">
+                                <div class="card-body">
+                                    <i class="bi bi-wifi"></i>
+                                    <h3 class="card-title">Historia</h3>
+                                    <p class="lead">Si queremos aprender mas sobre la historia de git podremos investigar mas en este enlaze</p>
+                                    <a href="https://es.wikipedia.org/wiki/Git"><button class="btn bg-danger text-white">Enlace</button></a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    
+
+
+                    
+                        <div class="col-12 col-md-12 col-lg-4">
+                            <div class="card text-white text-center bg-dark pb-2">
+                                <div class="card-body">
+                                    <i class="bi bi-laptop"></i>
+                                    <h3 class="card-title">Git Hub</h3>
+                                    <p class="lead">Github es un portal creado para alojar el código de las aplicaciones de cualquier desarrollador</p>
+                                    <a href="https://github.com/"><button class="btn bg-danger text-white">Enlace</button></a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+
+        
+            
+        <section class="section-padding mt-5" id="formulario">
+            <div class="container w-50 text-white">
+                <h1 class="text-center text-danger">Formulario</h1>
+                <form id="myForm">
+                  
+                  <div class="form-group mt-4">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" required>
+                  </div>
+                  <div class="form-group mt-4">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                  </div>
+                  <button type="submit" class="btn btn-danger mt-5">Enviar</button>
+        
+                </form>
+              </div>
+            </section>
+
+
+            <section class="section-padding" id="creadores">
+                <div class="container text-white w-75">
+                    <h1 class="text-center text-danger">Creadores</h1>
+        
+                    <ol class="list-group list-group-numbered mt-5">
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                          <div class="ms-2 me-auto">
+                            <div class="fw-bold">Marta Borreguero Soria</div>
+                            
+                          </div>
+                          <a href="https://github.com/martaboso98"><span class="badge bg-info rounded-pill">Enlace</span></a>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                          <div class="ms-2 me-auto">
+                            <div class="fw-bold">David González Sáez</div>
+                            
+                          </div>
+                          <a href="https://github.com/dgs02"><span class="badge bg-info rounded-pill">Enlace</span></a>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                          <div class="ms-2 me-auto">
+                            <div class="fw-bold">Jose Carlos Martín Tejada</div>
+                            
+                          </div>
+                          <a href="https://github.com/josekaMT"><span class="badge bg-info rounded-pill">Enlace</span></a>
+                        </li>
+                      </ol>
+                </div>
+            </section>
+
+
+        
+        
+    </main>
+    
+    <footer class="footer-dark text-white py-3 text-center">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-4">
+                  <h5 class="text-danger">Explora</h5>
+                  <ul class="list-unstyled">
+                      <li><a href="#guia" class="text-decoration-none text-dark">Guía de uso</a></li>
+                      <li><a href="#info" class="text-decoration-none text-dark">Información</a></li>
+                      <li><a href="#enlaces" class="text-decoration-none text-dark">Enlaces</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-4">
+                  <h5 class="text-danger">Contacto</h5>
+                  <ul class="list-unstyled">
+                      <li><a href="#formulario" class="text-decoration-none text-dark">Formulario</a></li>
+                      <li><a href="#creadores" class="text-decoration-none text-dark">Creadores</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-4">
+                  <h5 class="text-danger">Síguenos</h5>
+                  <ul class="list-unstyled ">
+                      <li><a href="https://github.com/dgs02" class="text-decoration-none text-dark">David</a></li>
+                      <li><a href="https://github.com/martaboso98" class="text-decoration-none text-dark">Marta</a></li>
+                      <li><a href="https://github.com/josekaMT" class="text-decoration-none text-dark">José Carlos</a></li>
+                  </ul>
+              </div>
+          </div>
+          <div class="row mt-3">
+              <div class="col-12">
+                  <p class="text-center mb-0 text-dark">© 2023 Marta, José Carlos y David </p>
+              </div>
+          </div>
+      </div>
+  </footer>
+
 </body>
 
 </html>
