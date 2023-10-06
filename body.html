@@ -9,7 +9,8 @@
 
     <!--<link rel="icon" href="img/fabi.png" type="image/x-icon"> -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
@@ -26,9 +27,43 @@
 </head>
 
 <body>
+  <nav class="gris navbar navbar-expand-lg sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/logo@2x.png" alt="Logo" width="140" height="60">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+                <span class="linea"></span>
+                <span class="linea"></span>
+                <span class="linea"></span>
+            </span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#guia">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#info">Información</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#enlaces">Enlaces</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#formulario">Formulario</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#creadores">Creadores</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
     <main>
 
-        <section class="about section-padding">
+        <section class="about section-padding" id="guia">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-4 col-md-12 col-12">
@@ -73,7 +108,7 @@
         </section>
 
 
-        <section class="section-padding">
+        <section class="section-padding" id="info">
             <div class="container w-75 text-white mt-5">
               <h1 class="text-center text-danger">Información</h1>
               <p class="mt-5 lead">Git es un sistema de control de versiones de código abierto ampliamente utilizado en el desarrollo de software. Su función principal es rastrear y gestionar los cambios realizados en archivos y directorios a lo largo del tiempo, lo que facilita la colaboración y el seguimiento de proyectos de software.
@@ -93,7 +128,7 @@
           </section>
             
 
-        <section class="services section-padding">
+        <section class="services section-padding" id="enlaces">
 
                 <div class="container">
 
@@ -156,7 +191,7 @@
 
         
             
-        <section class="section-padding mt-5">
+        <section class="section-padding mt-5" id="formulario">
             <div class="container w-50 text-white">
                 <h1 class="text-center text-danger">Formulario</h1>
                 <form id="myForm">
@@ -176,7 +211,7 @@
             </section>
 
 
-            <section class="section-padding">
+            <section class="section-padding" id="creadores">
                 <div class="container text-white w-75">
                     <h1 class="text-center text-danger">Creadores</h1>
         
@@ -211,6 +246,40 @@
         
     </main>
     
+    <footer class="footer-dark text-white py-3 text-center">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-4">
+                  <h5 class="text-danger">Explora</h5>
+                  <ul class="list-unstyled">
+                      <li><a href="#" class="text-decoration-none text-dark">Guía de uso</a></li>
+                      <li><a href="#" class="text-decoration-none text-dark">Información</a></li>
+                      <li><a href="#" class="text-decoration-none text-dark">Enlaces</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-4">
+                  <h5 class="text-danger">Contacto</h5>
+                  <ul class="list-unstyled">
+                      <li><a href="#" class="text-decoration-none text-dark">Formulario</a></li>
+                      <li><a href="#" class="text-decoration-none text-dark">Creadores</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-4">
+                  <h5 class="text-danger">Síguenos</h5>
+                  <ul class="list-unstyled ">
+                      <li><a href="https://github.com/dgs02" class="text-decoration-none text-dark">David</a></li>
+                      <li><a href="https://github.com/martaboso98" class="text-decoration-none text-dark">Marta</a></li>
+                      <li><a href="https://github.com/josekaMT" class="text-decoration-none text-dark">José Carlos</a></li>
+                  </ul>
+              </div>
+          </div>
+          <div class="row mt-3">
+              <div class="col-12">
+                  <p class="text-center mb-0 text-dark">© 2023 Marta, José Carlos y David </p>
+              </div>
+          </div>
+      </div>
+  </footer>
 
 </body>
 
